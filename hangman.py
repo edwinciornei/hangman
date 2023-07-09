@@ -1,7 +1,7 @@
 import random
 import string
 
-file = open("/Users/ciorneiedwinionatan/Desktop/PythonWantsome/Mine/Probleme_rezolvate/PROJECTS_FAIL/HANGMAN/wordlist.txt", 'r', encoding='UTF-8')
+file = open("wordlist.txt", 'r', encoding='UTF-8')
 f1 = file.readlines()
 
 def get_valid_word(f1):
